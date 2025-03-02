@@ -29,7 +29,7 @@ import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.XAxis.XAxisPosition;
 import com.github.mikephil.charting.components.YAxis;
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 import com.xxmassdeveloper.mpchartexample.custom.MyMarkerView;
 
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import cn.wj.android.cashbook.buildlogic.ProjectSetting
-import cn.wj.android.cashbook.buildlogic.configureGradleManagedDevices
-import cn.wj.android.cashbook.buildlogic.configureKotlinAndroid
+import cn.wj.android.moneyknow.buildlogic.ProjectSetting
+import cn.wj.android.moneyknow.buildlogic.configureGradleManagedDevices
+import cn.wj.android.moneyknow.buildlogic.configureKotlinAndroid
 import com.android.build.gradle.TestExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

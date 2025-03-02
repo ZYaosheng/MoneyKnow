@@ -15,8 +15,8 @@
  */
 
 import androidx.room.gradle.RoomExtension
-import cn.wj.android.cashbook.buildlogic.ProjectSetting
-import cn.wj.android.cashbook.buildlogic.libs
+import cn.wj.android.moneyknow.buildlogic.ProjectSetting
+import cn.wj.android.moneyknow.buildlogic.libs
 import com.google.devtools.ksp.gradle.KspExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

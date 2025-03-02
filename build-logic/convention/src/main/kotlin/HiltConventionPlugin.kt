@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import cn.wj.android.cashbook.buildlogic.ProjectSetting
-import cn.wj.android.cashbook.buildlogic.libs
+import cn.wj.android.moneyknow.buildlogic.ProjectSetting
+import cn.wj.android.moneyknow.buildlogic.libs
 import com.android.build.gradle.api.AndroidBasePlugin
 import org.gradle.api.Plugin
 import org.gradle.api.Project

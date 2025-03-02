@@ -1,30 +1,30 @@
 # 项目自定义插件
 [plugins]
 # JVM 项目
-cashbook-jvm-library = { id = "cashbook.jvm.library", version = "unspecified" }
+moneyknow-jvm-library = { id = "moneyknow.jvm.library", version = "unspecified" }
 # Android 测试
-cashbook-android-test = { id = "cashbook.android.test", version = "unspecified" }
+moneyknow-android-test = { id = "moneyknow.android.test", version = "unspecified" }
 # lint 检查
-cashbook-android-lint = { id = "cashbook.android.lint", version = "unspecified" }
+moneyknow-android-lint = { id = "moneyknow.android.lint", version = "unspecified" }
 # Hilt 依赖注入
-cashbook-android-hilt = { id = "cashbook.android.hilt", version = "unspecified" }
+moneyknow-android-hilt = { id = "moneyknow.android.hilt", version = "unspecified" }
 # Room 数据库
-cashbook-android-room = { id = "cashbook.android.room", version = "unspecified" }
+moneyknow-android-room = { id = "moneyknow.android.room", version = "unspecified" }
 # Android 应用
-cashbook-android-application = { id = "cashbook.android.application", version = "unspecified" }
+moneyknow-android-application = { id = "moneyknow.android.application", version = "unspecified" }
 # Android Compose 配置
-cashbook-android-application-compose = { id = "cashbook.android.application.compose", version = "unspecified" }
+moneyknow-android-application-compose = { id = "moneyknow.android.application.compose", version = "unspecified" }
 # Android jacoco 配置
-cashbook-android-application-jacoco = { id = "cashbook.android.application.jacoco", version = "unspecified" }
+moneyknow-android-application-jacoco = { id = "moneyknow.android.application.jacoco", version = "unspecified" }
 # Android Flavors 配置
-cashbook-android-application-flavors = { id = "cashbook.android.application.flavors", version = "unspecified" }
+moneyknow-android-application-flavors = { id = "moneyknow.android.application.flavors", version = "unspecified" }
 # Android 仓库
-cashbook-android-library = { id = "cashbook.android.library", version = "unspecified" }
+moneyknow-android-library = { id = "moneyknow.android.library", version = "unspecified" }
 # Android 仓库 Compose 配置
-cashbook-android-library-compose = { id = "cashbook.android.library.compose", version = "unspecified" }
+moneyknow-android-library-compose = { id = "moneyknow.android.library.compose", version = "unspecified" }
 # Android 仓库 jacoco 配置
-cashbook-android-library-jacoco = { id = "cashbook.android.library.jacoco", version = "unspecified" }
+moneyknow-android-library-jacoco = { id = "moneyknow.android.library.jacoco", version = "unspecified" }
 # Android 仓库 功能模块配置
-cashbook-android-library-feature = { id = "cashbook.android.library.feature", version = "unspecified" }
+moneyknow-android-library-feature = { id = "moneyknow.android.library.feature", version = "unspecified" }
 # Android  Flavors 文件生成
-cashbook-android-flavors-generate = { id = "cashbook.android.flavors.generate", version = "unspecified" }
+moneyknow-android-flavors-generate = { id = "moneyknow.android.flavors.generate", version = "unspecified" }

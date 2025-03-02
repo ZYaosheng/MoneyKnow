@@ -30,7 +30,7 @@ import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;

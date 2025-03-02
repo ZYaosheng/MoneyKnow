@@ -29,7 +29,7 @@ import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.Legend.LegendForm;

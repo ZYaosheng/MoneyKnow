@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.library.feature)
-    alias(conventionLibs.plugins.cashbook.android.library.compose)
-    alias(conventionLibs.plugins.cashbook.android.library.jacoco)
+    alias(conventionLibs.plugins.moneyknow.android.library.feature)
+    alias(conventionLibs.plugins.moneyknow.android.library.compose)
+    alias(conventionLibs.plugins.moneyknow.android.library.jacoco)
 }
 
 android {
-    namespace = "cn.wj.android.cashbook.feature.records"
+    namespace = "cn.wj.android.moneyknow.feature.records"
 }
 
 dependencies {

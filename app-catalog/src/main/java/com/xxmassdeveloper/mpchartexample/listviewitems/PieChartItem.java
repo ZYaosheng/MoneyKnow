@@ -32,7 +32,7 @@ import com.github.mikephil.charting.data.ChartData;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 
 public class PieChartItem extends ChartItem {
 

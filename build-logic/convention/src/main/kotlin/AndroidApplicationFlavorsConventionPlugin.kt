@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import cn.wj.android.cashbook.buildlogic.configureFlavors
+import cn.wj.android.moneyknow.buildlogic.configureFlavors
 import com.android.build.api.dsl.ApplicationExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

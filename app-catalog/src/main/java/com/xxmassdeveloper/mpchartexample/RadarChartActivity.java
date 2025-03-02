@@ -27,7 +27,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.RadarChart;
 import com.github.mikephil.charting.components.AxisBase;

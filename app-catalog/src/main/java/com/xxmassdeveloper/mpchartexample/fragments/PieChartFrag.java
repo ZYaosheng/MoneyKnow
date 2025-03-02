@@ -29,7 +29,7 @@ import android.view.ViewGroup;
 
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 
 
 public class PieChartFrag extends SimpleFragment {

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import cn.wj.android.cashbook.buildlogic.configureKotlinJvm
+import cn.wj.android.moneyknow.buildlogic.configureKotlinJvm
 
 plugins {
     `java-library`
     kotlin("jvm")
-    alias(conventionLibs.plugins.cashbook.android.lint)
+    alias(conventionLibs.plugins.moneyknow.android.lint)
 }
 
 // 配置 Kotlin JVM 环境

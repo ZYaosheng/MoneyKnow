@@ -48,7 +48,7 @@ dependencyResolutionManagement {
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 // 项目名称
-rootProject.name = "Cashbook"
+rootProject.name = "Moneyknow"
 
 // 项目包含的 Module
 include(":app")

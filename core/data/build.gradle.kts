@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.library)
-    alias(conventionLibs.plugins.cashbook.android.library.jacoco)
-    alias(conventionLibs.plugins.cashbook.android.hilt)
+    alias(conventionLibs.plugins.moneyknow.android.library)
+    alias(conventionLibs.plugins.moneyknow.android.library.jacoco)
+    alias(conventionLibs.plugins.moneyknow.android.hilt)
 }
 
 android {
-    namespace = "cn.wj.android.cashbook.core.data"
+    namespace = "cn.wj.android.moneyknow.core.data"
 
     libraryVariants.all {
         preBuildProvider.get().doFirst {

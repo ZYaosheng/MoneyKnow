@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import cn.wj.android.cashbook.buildlogic.ProjectSetting
-import cn.wj.android.cashbook.buildlogic.configureGradleManagedDevices
-import cn.wj.android.cashbook.buildlogic.configureKotlinAndroid
-import cn.wj.android.cashbook.buildlogic.configurePrintApksTask
-import cn.wj.android.cashbook.buildlogic.disableUnnecessaryAndroidTests
+import cn.wj.android.moneyknow.buildlogic.ProjectSetting
+import cn.wj.android.moneyknow.buildlogic.configureGradleManagedDevices
+import cn.wj.android.moneyknow.buildlogic.configureKotlinAndroid
+import cn.wj.android.moneyknow.buildlogic.configurePrintApksTask
+import cn.wj.android.moneyknow.buildlogic.disableUnnecessaryAndroidTests
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import com.android.build.gradle.LibraryExtension
 import org.gradle.api.Plugin

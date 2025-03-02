@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.library)
+    alias(conventionLibs.plugins.moneyknow.android.library)
     alias(libs.plugins.google.protobuf)
 }
 
 android {
-    namespace = "cn.wj.android.cashbook.core.datastore.proto"
+    namespace = "cn.wj.android.moneyknow.core.datastore.proto"
 }
 
 protobuf {

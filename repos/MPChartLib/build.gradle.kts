@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.library)
+    alias(conventionLibs.plugins.moneyknow.android.library)
 }
 
 android {

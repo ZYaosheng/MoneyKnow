@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import cn.wj.android.cashbook.buildlogic.ProjectSetting
-import cn.wj.android.cashbook.buildlogic.TEST_INSTRUMENTATION_RUNNER
-import cn.wj.android.cashbook.buildlogic.configureGradleManagedDevices
-import cn.wj.android.cashbook.buildlogic.libs
+import cn.wj.android.moneyknow.buildlogic.ProjectSetting
+import cn.wj.android.moneyknow.buildlogic.TEST_INSTRUMENTATION_RUNNER
+import cn.wj.android.moneyknow.buildlogic.configureGradleManagedDevices
+import cn.wj.android.moneyknow.buildlogic.libs
 import com.android.build.gradle.LibraryExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

@@ -29,8 +29,8 @@
             android:foregroundServiceType="dataSync">
 
             <intent-filter>
-                <action android:name="cn.wj.android.cashbook.upgrade.CANCEL_DOWNLOAD" />
-                <action android:name="cn.wj.android.cashbook.upgrade.RETRY_DOWNLOAD" />
+                <action android:name="cn.wj.android.moneyknow.upgrade.CANCEL_DOWNLOAD" />
+                <action android:name="cn.wj.android.moneyknow.upgrade.RETRY_DOWNLOAD" />
             </intent-filter>
         </service>
 

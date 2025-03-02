@@ -16,18 +16,18 @@
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- 兼容夜间模式 -->
-    <style name="NightAdjusted.Theme.Cashbook" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="NightAdjusted.Theme.Moneyknow" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
     </style>
 
     <!-- 兼容 values-v 不同版本 -->
-    <style name="PlatformAdjusted.Theme.Cashbook" parent="NightAdjusted.Theme.Cashbook">
+    <style name="PlatformAdjusted.Theme.Moneyknow" parent="NightAdjusted.Theme.Moneyknow">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
     <!-- 应用主题 -->
-    <style name="Theme.Cashbook" parent="PlatformAdjusted.Theme.Cashbook" />
+    <style name="Theme.Moneyknow" parent="PlatformAdjusted.Theme.Moneyknow" />
 
     <!-- 启动主题 -->
     <style name="NightAdjusted.Theme.Splash" parent="Theme.SplashScreen">
@@ -36,7 +36,7 @@
     </style>
 
     <!-- 启动页主题 -->
-    <style name="Theme.Cashbook.Splash" parent="NightAdjusted.Theme.Splash">
+    <style name="Theme.Moneyknow.Splash" parent="NightAdjusted.Theme.Splash">
         <!-- 启动页背景 -->
         <item name="windowSplashScreenBackground">@color/splash_background_tint</item>
         <!-- 启动页显示的图标 -->
@@ -44,7 +44,7 @@
         <!-- 显示时长，上限 1000ms -->
         <item name="windowSplashScreenAnimationDuration">250</item>
         <!-- 退出启动页后使用的主题 -->
-        <item name="postSplashScreenTheme">@style/Theme.Cashbook</item>
+        <item name="postSplashScreenTheme">@style/Theme.Moneyknow</item>
     </style>
 
 </resources>

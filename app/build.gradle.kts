@@ -15,20 +15,20 @@
  */
 @file:Suppress("DEPRECATION")
 
-import cn.wj.android.cashbook.buildlogic.CashbookBuildType
-import cn.wj.android.cashbook.buildlogic.CashbookFlavor
-import cn.wj.android.cashbook.buildlogic.FileSystemOperationsInjected
-import cn.wj.android.cashbook.buildlogic.TEST_INSTRUMENTATION_RUNNER
-import cn.wj.android.cashbook.buildlogic.configureOutputs
+import cn.wj.android.moneyknow.buildlogic.MoneyknowBuildType
+import cn.wj.android.moneyknow.buildlogic.MoneyknowFlavor
+import cn.wj.android.moneyknow.buildlogic.FileSystemOperationsInjected
+import cn.wj.android.moneyknow.buildlogic.TEST_INSTRUMENTATION_RUNNER
+import cn.wj.android.moneyknow.buildlogic.configureOutputs
 import com.android.build.gradle.api.ApplicationVariant
 import java.io.FileWriter
 
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.application)
-    alias(conventionLibs.plugins.cashbook.android.application.compose)
-    alias(conventionLibs.plugins.cashbook.android.application.flavors)
-    alias(conventionLibs.plugins.cashbook.android.application.jacoco)
-    alias(conventionLibs.plugins.cashbook.android.hilt)
+    alias(conventionLibs.plugins.moneyknow.android.application)
+    alias(conventionLibs.plugins.moneyknow.android.application.compose)
+    alias(conventionLibs.plugins.moneyknow.android.application.flavors)
+    alias(conventionLibs.plugins.moneyknow.android.application.jacoco)
+    alias(conventionLibs.plugins.moneyknow.android.hilt)
     alias(libs.plugins.androidx.baselineprofile)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.takahirom.roborazzi)
@@ -37,7 +37,7 @@ plugins {
 
 android {
 
-    namespace = "cn.wj.android.cashbook"
+    namespace = "cn.wj.android.moneyknow"
 
     defaultConfig {
         // 应用 id
@@ -76,7 +76,7 @@ android {
         val release = getByName("release") {
             isMinifyEnabled = false
             isShrinkResources = false
-            applicationIdSuffix = CashbookBuildType.Release.applicationIdSuffix
+            applicationIdSuffix = MoneyknowBuildType.Release.applicationIdSuffix
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
@@ -92,15 +92,15 @@ android {
         getByName("debug") {
             isMinifyEnabled = false
             isShrinkResources = false
-            applicationIdSuffix = CashbookBuildType.Debug.applicationIdSuffix
+            applicationIdSuffix = MoneyknowBuildType.Debug.applicationIdSuffix
             signingConfig = release.signingConfig
         }
     }
 
     productFlavors {
-        CashbookFlavor.values().forEach { flavor ->
+        MoneyknowFlavor.values().forEach { flavor ->
             // 配置权限，Offline 渠道没有网络相关权限
-            val manifestPlaceholdersMap = if (flavor == CashbookFlavor.Offline) {
+            val manifestPlaceholdersMap = if (flavor == MoneyknowFlavor.Offline) {
                 mapOf(
                     "PERMISSION_1" to "NO_REQUEST_1",
                     "PERMISSION_2" to "NO_REQUEST_2",
@@ -118,7 +118,7 @@ android {
     }
 
     sourceSets {
-        CashbookFlavor.values().forEach { flavor ->
+        MoneyknowFlavor.values().forEach { flavor ->
             // 配置资源路径
             getByName(flavor.name) {
                 res.srcDirs("src/channel/res_${flavor.name}")
@@ -141,7 +141,7 @@ android {
         toPath = "${project.rootDir}${sep}outputs${sep}apk",
         include = "**/*.apk",
         renamer = { versionName ->
-            "Cashbook_${versionName}.apk"
+            "Moneyknow_${versionName}.apk"
         },
     )
 }

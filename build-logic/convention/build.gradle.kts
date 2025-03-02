@@ -21,7 +21,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "cn.wj.android.cashbook.buildlogic"
+group = "cn.wj.android.moneyknow.buildlogic"
 
 val javaVersion = JavaVersion.VERSION_17
 
@@ -56,59 +56,59 @@ tasks {
 gradlePlugin {
     plugins {
         register("androidApplication") {
-            id = "cashbook.android.application"
+            id = "moneyknow.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
         register("androidApplicationCompose") {
-            id = "cashbook.android.application.compose"
+            id = "moneyknow.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
         register("androidApplicationJacoco") {
-            id = "cashbook.android.application.jacoco"
+            id = "moneyknow.android.application.jacoco"
             implementationClass = "AndroidApplicationJacocoConventionPlugin"
         }
         register("androidLibrary") {
-            id = "cashbook.android.library"
+            id = "moneyknow.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
         register("androidFeature") {
-            id = "cashbook.android.library.feature"
+            id = "moneyknow.android.library.feature"
             implementationClass = "AndroidFeatureConventionPlugin"
         }
         register("androidHilt") {
-            id = "cashbook.android.hilt"
+            id = "moneyknow.android.hilt"
             implementationClass = "HiltConventionPlugin"
         }
         register("androidRoom") {
-            id = "cashbook.android.room"
+            id = "moneyknow.android.room"
             implementationClass = "AndroidRoomConventionPlugin"
         }
         register("androidLibraryCompose") {
-            id = "cashbook.android.library.compose"
+            id = "moneyknow.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
         register("androidLibraryJacoco") {
-            id = "cashbook.android.library.jacoco"
+            id = "moneyknow.android.library.jacoco"
             implementationClass = "AndroidLibraryJacocoConventionPlugin"
         }
         register("androidTest") {
-            id = "cashbook.android.test"
+            id = "moneyknow.android.test"
             implementationClass = "AndroidTestConventionPlugin"
         }
         register("androidLint") {
-            id = "cashbook.android.lint"
+            id = "moneyknow.android.lint"
             implementationClass = "AndroidLintConventionPlugin"
         }
         register("androidApplicationFlavors") {
-            id = "cashbook.android.application.flavors"
+            id = "moneyknow.android.application.flavors"
             implementationClass = "AndroidApplicationFlavorsConventionPlugin"
         }
         register("androidGenerateFlavors") {
-            id = "cashbook.android.flavors.generate"
+            id = "moneyknow.android.flavors.generate"
             implementationClass = "AndroidGenerateFlavorsConventionPlugin"
         }
         register("jvmLibrary") {
-            id = "cashbook.jvm.library"
+            id = "moneyknow.jvm.library"
             implementationClass = "JvmLibraryConventionPlugin"
         }
     }

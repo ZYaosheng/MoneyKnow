@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import cn.wj.android.cashbook.buildlogic.ProjectSetting
+import cn.wj.android.moneyknow.buildlogic.ProjectSetting
 import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.dsl.LibraryExtension
 import com.android.build.api.dsl.Lint

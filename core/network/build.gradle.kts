@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import cn.wj.android.cashbook.buildlogic.CashbookFlavor
+import cn.wj.android.moneyknow.buildlogic.MoneyknowFlavor
 
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.library)
-    alias(conventionLibs.plugins.cashbook.android.library.jacoco)
-    alias(conventionLibs.plugins.cashbook.android.hilt)
+    alias(conventionLibs.plugins.moneyknow.android.library)
+    alias(conventionLibs.plugins.moneyknow.android.library.jacoco)
+    alias(conventionLibs.plugins.moneyknow.android.hilt)
     alias(libs.plugins.kotlin.serialization)
 }
 
 android {
-    namespace = "cn.wj.android.cashbook.core.network"
+    namespace = "cn.wj.android.moneyknow.core.network"
 }
 
 dependencies {

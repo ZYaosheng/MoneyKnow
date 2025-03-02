@@ -15,17 +15,17 @@
  */
 @file:Suppress("UnstableApiUsage")
 
-import cn.wj.android.cashbook.buildlogic.configureFlavors
+import cn.wj.android.moneyknow.buildlogic.configureFlavors
 import com.android.build.api.dsl.ManagedVirtualDevice
 
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.test)
+    alias(conventionLibs.plugins.moneyknow.android.test)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.androidx.baselineprofile)
 }
 
 android {
-    namespace = "cn.wj.android.cashbook.baselineprofile"
+    namespace = "cn.wj.android.moneyknow.baselineprofile"
 
     defaultConfig {
         minSdk = 28

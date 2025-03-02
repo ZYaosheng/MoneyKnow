@@ -30,7 +30,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.Chart;
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 
 /**
  * Base class of all Activities of the Demo Application.

@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import cn.wj.android.cashbook.buildlogic.TEST_INSTRUMENTATION_RUNNER
+import cn.wj.android.moneyknow.buildlogic.TEST_INSTRUMENTATION_RUNNER
 
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.library)
-    alias(conventionLibs.plugins.cashbook.android.library.jacoco)
-    alias(conventionLibs.plugins.cashbook.android.hilt)
+    alias(conventionLibs.plugins.moneyknow.android.library)
+    alias(conventionLibs.plugins.moneyknow.android.library.jacoco)
+    alias(conventionLibs.plugins.moneyknow.android.hilt)
 }
 
 android {
-    namespace = "cn.wj.android.cashbook.sync"
+    namespace = "cn.wj.android.moneyknow.sync"
 
     defaultConfig {
         testInstrumentationRunner = TEST_INSTRUMENTATION_RUNNER

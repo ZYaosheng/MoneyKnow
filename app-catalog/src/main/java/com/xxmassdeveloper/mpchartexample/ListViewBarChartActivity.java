@@ -32,7 +32,7 @@ import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.XAxis.XAxisPosition;

@@ -30,7 +30,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 /**

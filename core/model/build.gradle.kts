@@ -14,5 +14,5 @@
  * limitations under the License.
  */
 plugins {
-    alias(conventionLibs.plugins.cashbook.jvm.library)
+    alias(conventionLibs.plugins.moneyknow.jvm.library)
 }

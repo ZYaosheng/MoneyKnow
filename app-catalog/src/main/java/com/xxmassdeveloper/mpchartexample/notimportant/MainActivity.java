@@ -53,7 +53,7 @@ import com.xxmassdeveloper.mpchartexample.MultiLineChartActivity;
 import com.xxmassdeveloper.mpchartexample.PerformanceLineChart;
 import com.xxmassdeveloper.mpchartexample.PieChartActivity;
 import com.xxmassdeveloper.mpchartexample.PiePolylineChartActivity;
-import cn.wj.android.cashbookcatalog.R;
+import cn.wj.android.moneyknowcatalog.R;
 import com.xxmassdeveloper.mpchartexample.RadarChartActivity;
 import com.xxmassdeveloper.mpchartexample.RealtimeLineChartActivity;
 import com.xxmassdeveloper.mpchartexample.ScatterChartActivity;

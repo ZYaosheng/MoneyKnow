@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 plugins {
-    alias(conventionLibs.plugins.cashbook.android.application)
-    alias(conventionLibs.plugins.cashbook.android.application.compose)
+    alias(conventionLibs.plugins.moneyknow.android.application)
+    alias(conventionLibs.plugins.moneyknow.android.application.compose)
 }
 
 android {
-    namespace = "cn.wj.android.cashbookcatalog"
+    namespace = "cn.wj.android.moneyknowcatalog"
 
     defaultConfig {
         // 应用 id
