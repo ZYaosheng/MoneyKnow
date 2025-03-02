@@ -261,17 +261,30 @@ internal fun LauncherContentScreen(
 
                 is LauncherContentUiState.Success -> {
                     Box(modifier = Modifier.fillMaxSize()) {
-                        AsyncImage(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .aspectRatio(windowAdaptiveInfo.bookImageRatio),
-                            model = uiState.topBgUri.toUri(),
-                            placeholder = painterResource(id = R.drawable.im_top_background),
-                            error = painterResource(id = R.drawable.im_top_background),
-                            fallback = painterResource(id = R.drawable.im_top_background),
-                            contentScale = ContentScale.FillBounds,
-                            contentDescription = null,
-                        )
+                        // 背景图片
+                        Box(modifier = Modifier
+                            .fillMaxWidth()
+                            .aspectRatio(windowAdaptiveInfo.bookImageRatio)
+                        ) {
+                            // 图片
+                            AsyncImage(
+                                modifier = Modifier.fillMaxSize(),
+                                model = uiState.topBgUri.toUri(),
+                                placeholder = painterResource(id = R.drawable.im_top_background),
+                                error = painterResource(id = R.drawable.im_top_background),
+                                fallback = painterResource(id = R.drawable.im_top_background),
+                                contentScale = ContentScale.FillBounds,
+                                contentDescription = null,
+                            )
+                            
+                            // 添加半透明蒙版
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxSize()
+                                    .background(Color.Black.copy(alpha = 0.4f)) // 黑色半透明蒙版
+                            )
+                        }
+                        
                         BackdropScaffold(
                             scaffoldState = scaffoldState,
                             appBar = { /* 使用上层 topBar 处理 */ },
@@ -412,20 +425,19 @@ private fun BackLayerContent(
                 .padding(16.dp),
         ) {
             val textModifier = Modifier
-                .background(
-                    color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.7f),
-                    shape = MaterialTheme.shapes.small,
-                )
                 .padding(horizontal = 8.dp)
-            CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onPrimaryContainer) {
+            
+            CompositionLocalProvider(LocalContentColor provides Color.White) {
                 Text(
                     modifier = textModifier,
                     text = stringResource(id = R.string.month_income),
+                    style = MaterialTheme.typography.bodyLarge,
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     modifier = textModifier,
                     text = monthIncome.withCNY(),
+                    style = MaterialTheme.typography.headlineMedium,
                 )
                 Spacer(modifier = Modifier.height(24.dp))
                 Row {
@@ -433,12 +445,14 @@ private fun BackLayerContent(
                         Text(
                             modifier = textModifier,
                             text = "${stringResource(id = R.string.month_expend)} ${monthExpand.withCNY()}",
+                            style = MaterialTheme.typography.bodyLarge,
                         )
                     }
                     Box(modifier = Modifier.weight(1f)) {
                         Text(
                             modifier = textModifier,
                             text = "${stringResource(id = R.string.month_balance)} ${monthBalance.withCNY()}",
+                            style = MaterialTheme.typography.bodyLarge,
                         )
                     }
                 }
