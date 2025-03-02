@@ -34,7 +34,6 @@ import cn.wj.android.cashbook.core.common.third.MyFormatStrategy
 import cn.wj.android.cashbook.core.data.repository.SettingRepository
 import cn.wj.android.cashbook.sync.initializers.Sync
 import cn.wj.android.cashbook.ui.MainActivity
-import com.didichuxing.doraemonkit.DoKit
 import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.Logger
 import dagger.hilt.android.HiltAndroidApp
@@ -98,9 +97,6 @@ class CashbookApplication : Application() {
             logger("UncaughtException").e(throwable, "UncaughtException $thread")
             AppManager.finishAllActivity()
         }
-
-        DoKit.Builder(this)
-            .build()
 
         // 初始化同步服务
         Sync.initialize(applicationContext)

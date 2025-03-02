@@ -1,11 +1,10 @@
-# Cashbook
+#MoneyKnow (原 cashbook 修改版)
+⚠️ 注意
+本项目为个人自用修改版本，基于 cashbook Fork 并重命名，非官方版本。
+当前仍处于开发调试阶段，功能可能不稳定，不建议他人直接使用。
+原始代码遵循 [MIT 许可证](LICENSE)，修改后的代码仍遵守该协议。
 
-[![Build](https://github.com/WangJie0822/Cashbook/actions/workflows/Build.yaml/badge.svg)](https://github.com/WangJie0822/Cashbook/actions/workflows/Build.yaml)
-[![GitHub](https://img.shields.io/github/license/WangJie0822/Cashbook)](http://www.apache.org/licenses/LICENSE-2.0)
-[![GitHub release (with filter)](https://img.shields.io/github/v/release/WangJie0822/Cashbook)](https://github.com/WangJie0822/Cashbook/releases/latest)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/WangJie0822/Cashbook/total)
-
-## ToDo 列表
+## 原仓库[Cashbook]ToDo 列表
 - [x] 基本记账功能；
 - [x] 资产管理功能；
 - [x] 信用卡支持；
@@ -35,20 +34,47 @@
 - [ ] 可报销记录未报销提醒；
 - [ ] 修复切换账本后添加记录默认关联其它账本资产；
 
-## 项目说明
-一个自用记账本APP，从18年开始，就一直在使用**网易有钱**记账，考虑到个人隐私以及安全性问题，一直都是离线使用，21年年初突然听说**网易有钱**要停止运营了，看到相关信息说是停止运营前可以导出数据转到其他平台使用，因此连上网络准备导出，就这一步操作，让我记录了有三年多的数据全部丢失。之后终止了一段时间的记账，在这期间感觉到非常的没有安全感，感觉一下子对自己的资产没有了感知，这个月花了多少，收入多少，结余多少完全没有了概念，因此觉得记账还是必不可少，也尝试了其它不少记账APP，但都有或多或少的问题，要不就是功能不满足要求，要不就是要收费，而且还是不想把个人记账相关的信息暴露给三方的平台，最终还是决定自己写一个来使用。
 
-因为个人开发，所以没有好的**UI**方面的想法，因此在界面设计以及功能方面借鉴了不少其它APP：
+🎯 项目目标
+在保留原 cashbook 核心记账功能的基础上，针对个人需求进行以下改造：
 
-* 网易有钱
-* 薄荷记账
-* 钱迹
-* Expenses
+UI/UX 优化：调整界面布局和操作流程，适配个人使用习惯。
+
+自动化增强：与 Tasker 联动，实现场景化记账（如定位到超市自动弹出食品分类）。
+
+功能扩展：添加自定义报表、快捷记账小组件等实用功能。
+
+
+🛠️ 当前状态
+✅ 已完成修改
+项目重命名为 MoneyKnow，替换代码中所有 cashbook 引用。
+
+优化主界面布局。
+
+🚧 开发中功能
+Tasker 联动
+
+通过 Tasker 监听短信/通知，自动解析消费金额和分类（如银行扣款短信 → 自动记账）。
+
+📅 未来计划
+添加「语音记账」快捷入口。
+
+支持导出数据并生成可视化报表。
+
+待定。
+
+
+📌 免责声明
+本项目为个人实验性修改，可能存在数据丢失风险，建议定期备份账本数据。
+
+与 Tasker 联动功能需自行承担自动化脚本风险。
+
+
+🤝 协作说明
+暂不开放 PR：当前为个人开发阶段，代码结构可能大幅调整。
 
 ## 使用说明
-1. 你可以从项目的发行版本中下载最新的安装包：[Github](https://github.com/WangJie0822/Cashbook/releases) or [Gitee](https://gitee.com/wangjie0822/Cashbook/releases)；
-
-2. 你也可以将项目下载到本地运行，运行项目前请在项目 /gradle 路径下按如下格式添加文件 signing.versions.toml
+运行项目前请在项目 /gradle 路径下按如下格式添加文件 signing.versions.toml
 
 ```toml
 [versions]
