@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">记账本-catalog</string>
+    <string name="app_name">钱漪-catalog</string>
 
     <string name="viewGithub">View on GitHub</string>
     <string name="reportProblem">Problem Report</string>

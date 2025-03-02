@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# 记账本 Changelog
+# 钱漪 Changelog
 
 ## [Unreleased]
 

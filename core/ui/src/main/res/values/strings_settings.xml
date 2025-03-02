@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="sheet_title">记账本</string>
+    <string name="sheet_title">钱漪</string>
     <string name="my_books">我的账本</string>
     <string name="my_assets">我的资产</string>
     <string name="my_categories">我的分类</string>
@@ -45,7 +45,7 @@
     <string name="unknown_type">未知类型</string>
     <string name="version_info">版本信息</string>
     <string name="user_agreement_and_privacy_policy">用户协议和隐私政策</string>
-    <string name="user_agreement_and_privacy_policy_hint_start">欢迎使用记账本APP！我们非常尊重并保护所有使用服务用户的个人隐私权，在使用记账本各项服务前，请您务必仔细阅读、透彻理解并同意接受</string>
+    <string name="user_agreement_and_privacy_policy_hint_start">欢迎使用钱漪APP！我们非常尊重并保护所有使用服务用户的个人隐私权，在使用钱漪各项服务前，请您务必仔细阅读、透彻理解并同意接受</string>
     <string name="user_agreement_and_privacy_policy_hint_end">后，再开始使用我们的服务。</string>
     <string name="user_agreement_and_privacy_policy_with_chevron">《用户协议和隐私政策》</string>
     <string name="logcat_state">日志状态</string>

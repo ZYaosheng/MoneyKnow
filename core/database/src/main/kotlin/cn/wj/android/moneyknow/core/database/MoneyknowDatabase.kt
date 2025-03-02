@@ -35,7 +35,7 @@ import cn.wj.android.moneyknow.core.database.table.TagWithRecordTable
 import cn.wj.android.moneyknow.core.database.table.TypeTable
 
 /**
- * 记账本数据库
+ * 钱漪数据库
  *
  * > [王杰](mailto:15555650921@163.com) 创建于 2021/5/15
  */
