@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">记账本</string>
+    <string name="app_name">钱漪</string>
 
     <!-- 快捷方式 -->
     <string name="shortcuts_add_id">cn.wj.android.moneyknow.shortcuts.add</string>
