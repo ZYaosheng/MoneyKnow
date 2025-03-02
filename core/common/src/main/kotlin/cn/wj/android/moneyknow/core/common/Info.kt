@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cn.wj.android.cashbook.core.common
+package cn.wj.android.moneyknow.core.common
 
 /**
  * 相关信息
