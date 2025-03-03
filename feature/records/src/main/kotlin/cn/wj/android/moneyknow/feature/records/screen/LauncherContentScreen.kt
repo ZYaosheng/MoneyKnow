@@ -281,7 +281,7 @@ internal fun LauncherContentScreen(
                             Box(
                                 modifier = Modifier
                                     .fillMaxSize()
-                                    .background(Color.Black.copy(alpha = 0.4f)) // 黑色半透明蒙版
+                                    .background(Color.Black.copy(alpha = 0.2f)) // 将透明度从0.4f降低到0.2f
                             )
                         }
                         
