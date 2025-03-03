@@ -19,7 +19,7 @@ package cn.wj.android.moneyknow.core.common
 
 
 /** 邮箱 */
-const val EMAIL_ADDRESS = "test@163.com"
+const val EMAIL_ADDRESS = "mmuouz2104@2925.com"
 
 /** Github 首页 */
 const val GITHUB_HOMEPAGE = "https://github.com/ZYaosheng/MoneyKnow"
