@@ -29,22 +29,4 @@
     <!-- 应用主题 -->
     <style name="Theme.Moneyknow" parent="PlatformAdjusted.Theme.Moneyknow" />
 
-    <!-- 启动主题 -->
-    <style name="NightAdjusted.Theme.Splash" parent="Theme.SplashScreen">
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
-    </style>
-
-    <!-- 启动页主题 -->
-    <style name="Theme.Moneyknow.Splash" parent="NightAdjusted.Theme.Splash">
-        <!-- 启动页背景 -->
-        <item name="windowSplashScreenBackground">@color/splash_background_tint</item>
-        <!-- 启动页显示的图标 -->
-        <item name="windowSplashScreenAnimatedIcon">@drawable/layer_splash_background</item>
-        <!-- 显示时长，上限 1000ms -->
-        <item name="windowSplashScreenAnimationDuration">250</item>
-        <!-- 退出启动页后使用的主题 -->
-        <item name="postSplashScreenTheme">@style/Theme.Moneyknow</item>
-    </style>
-
 </resources>

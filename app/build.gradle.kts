@@ -197,10 +197,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
-    implementation(libs.androidx.activity.compose)
-
-    implementation(libs.androidx.core.splashscreen)
-
     implementation(libs.coil.kt)
 
     // 注释掉DoKit依赖
